@@ -18,20 +18,52 @@ Target length: ~1–2 pages.
 
 Target length: ~2,500 words/chapter (variance allowed).
 
+### Section 1 — Diagnosis: The Broken Reward Signal
+- Job: Establish the problem as structural (not moral), define the primitives, and surface the accounting error.
+- Chapters: 01–03
+
 | Ch | Working title | Job (1 sentence) | Key claims | New terms (if any) | Spec |
 |---:|---|---|---|---|---|
 | 01 | The Broken Reward Signal | Establish that the problem is structural (not moral) and set the “treat it like engineering” frame. | C-002 | rent (preview), exclusion (preview) | `book/blueprint/01_The_Broken_Reward_Signal.md` |
 | 02 | The Three Inputs | Define nature/civilization/labor as the primitives needed to reason clearly. | C-001 | nature, civilization, labor | `book/blueprint/02_The_Three_Inputs.md` |
 | 03 | The Commons (as Accounting) | Define the commons as a value category and surface the accounting error in modern ownership. | C-003 | commons | `book/blueprint/03_The_Commons_as_Accounting.md` |
+
+### Section 2 — Mechanism: Exclusion → Rent → Conflict
+- Job: Make exclusion and rent legible and show why political fights recur under the current mechanics.
+- Chapters: 04–06
+
+| Ch | Working title | Job (1 sentence) | Key claims | New terms (if any) | Spec |
+|---:|---|---|---|---|---|
 | 04 | Property Is Exclusion | Make exclusion legible as the mechanism behind property without villain framing. | C-002, C-019 | exclusion (formal) | `book/blueprint/04_Property_Is_Exclusion.md` |
 | 05 | Rent: Income from Exclusion | Define rent precisely and distinguish it from wages and profit using simple contrasts. | C-002, C-003 | rent (formal) | `book/blueprint/05_Rent_Income_from_Exclusion.md` |
 | 06 | Why Politics Can’t Fix It | Show why moral/political fights recur under the current mechanics and why partial fixes fail. | C-013 | capture (informal) | `book/blueprint/06_Why_Politics_Cant_Fix_It.md` |
+
+### Section 3 — Architecture: The Inversion + Legitimacy
+- Job: Introduce the inversion principle and the two pillars that make it workable: the dividend and the People’s Budget.
+- Chapters: 07–09
+
+| Ch | Working title | Job (1 sentence) | Key claims | New terms (if any) | Spec |
+|---:|---|---|---|---|---|
 | 07 | The Inversion Principle | Introduce the core inversion: charge exclusion, not productive activity. | C-004 | LEF (preview) | `book/blueprint/07_The_Inversion_Principle.md` |
 | 08 | Compensation: The Citizen Dividend | Establish the dividend as compensation for exclusion (not charity) and why it stabilizes legitimacy. | C-006, C-019 | citizen dividend | `book/blueprint/08_Compensation_The_Citizen_Dividend.md` |
 | 09 | Funding Government: The People’s Budget | Introduce the People’s Budget and show how it reduces capture vs tax-funded discretion. | C-008 | people’s budget | `book/blueprint/09_Funding_Government_The_Peoples_Budget.md` |
+
+### Section 4 — End State: Price the Commons, Not Productivity
+- Job: Make the replacement system concrete (LEF + resource rents) and draw the boundary that protects productive activity while allowing measurable externality/risk fees.
+- Chapters: 10–12
+
+| Ch | Working title | Job (1 sentence) | Key claims | New terms (if any) | Spec |
+|---:|---|---|---|---|---|
 | 10 | The Land Exclusion Fee (LEF) | Explain LEF at a conceptual level and the “near-zero transfer value” objective. | C-004, C-005, C-020 | LEF | `book/blueprint/10_The_Land_Exclusion_Fee_LEF.md` |
 | 11 | Resource Rents | Extend the same logic to finite resources and preview why different commons need different fee structures. | C-010, C-015 | resource rent | `book/blueprint/11_Resource_Rents.md` |
-| 12 | No Taxes on Productivity | Make the end state explicit: replace productive taxes with commons fees; place externality/risk fees inside the framework. | C-009, C-016, C-020 | productive activity | `book/blueprint/12_No_Taxes_on_Productivity.md` |
+| 12 | No Taxes on Productivity | Make the end state explicit: replace productive taxes with commons fees; place externality/risk fees inside the framework. | C-009, C-016, C-020, C-021 | productive activity | `book/blueprint/12_No_Taxes_on_Productivity.md` |
+
+### Section 5 — Delivery: Transition, Safeguards, and Synthesis
+- Job: Show credible adoption paths, define safeguards and failure modes, handle objections, and close with the integrated vision (including the “edge of AI” agenda).
+- Chapters: 13–17
+
+| Ch | Working title | Job (1 sentence) | Key claims | New terms (if any) | Spec |
+|---:|---|---|---|---|---|
 | 13 | Transition Without Chaos | Present the stable-state glide path (sequencing, bonds, constraints) without pretending it’s one-size-fits-all. | C-011 | transition bonds (preview) | `book/blueprint/13_Transition_Without_Chaos.md` |
 | 14 | Greenfield Adoption | Describe how rebuilding states can adopt the architecture quickly under minimal institutional assumptions. | C-018 | greenfield adoption | `book/blueprint/14_Greenfield_Adoption.md` |
 | 15 | Safeguards and Failure Modes | Define the failure modes (exemptions, tampering, diversion) and the non-negotiable safeguards. | C-013 | dividend-first rule | `book/blueprint/15_Safeguards_and_Failure_Modes.md` |

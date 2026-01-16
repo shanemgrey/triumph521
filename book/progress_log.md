@@ -103,3 +103,11 @@ Current snapshot: `book/project_status.md`.
 ### 2026-01-16 — Added “compounding productive capacity” model for productivity framing
 - Decision: Use a time-based model of growth (income reinvested into tools/skills/durable capital compounding future productivity) to support the “no taxes on productive activity” argument.
 - Impacted artifacts: `book/registry/glossary.md` (new term), `book/registry/claim_ledger.md` (`C-021`), `book/tickets.md` (`T-027`).
+
+### 2026-01-16 — Implemented Part I section headers (T-021)
+- Decision: Group Part I into five reader-orientation sections: Diagnosis (01–03), Mechanism (04–06), Architecture (07–09), End State (10–12), Delivery (13–17).
+- Impacted artifacts: `book/blueprint/book_map.md`.
+
+### 2026-01-16 — Implemented compounding model requirement in Chapter 12 (T-027)
+- Decision: Require Chapter 12 to include the “Compounding productive capacity (model)” explanation (with neutral examples and an explicit no-“luxury shaming” warning).
+- Impacted artifacts: `book/blueprint/12_No_Taxes_on_Productivity.md`, `book/blueprint/book_map.md`.
