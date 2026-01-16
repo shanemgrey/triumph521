@@ -10,12 +10,12 @@ Extend the framework to natural resources and preview why different commons cate
 
 ## Reader Entry → Exit State
 - Entry: The reader sees LEF and wonders if the same mechanism applies everywhere.
-- Exit: The reader understands “same principle, different fee structures” and is ready for Book Two’s taxonomy.
+- Exit: The reader understands “same principle, different fee structures” and is ready for Part II’s taxonomy.
 
 ## Must Include
 - The difference between finite extractive resources and regenerative resources.
 - The sustainability angle: pricing commons usage can reduce throughput and waste without taxing work.
-- A clear boundary: Part I gives intuition; Book Two gives mechanisms.
+- A clear boundary: Part I gives intuition; Part II gives mechanisms.
 
 ## Must Not Include
 - No heavy industrial-organization math.
@@ -36,12 +36,11 @@ Extend the framework to natural resources and preview why different commons cate
 1. Resource rents: what is being priced (exclusion + scarcity)
 2. Finite resources: rent capture vs throughput incentives
 3. Regenerative resources: why the structure changes
-4. The promise of Book Two: domain modules you can jump to
+4. The promise of Part II: domain modules you can jump to
 
 ## Compression Target (5 bullets)
 - Resources generate rents just like land does.
 - Finite and regenerative resources behave differently.
 - Pricing commons usage can reduce waste and harm.
 - Same principle, different fee structures.
-- Book Two provides domain-by-domain mechanisms.
-
+- Part II provides domain-by-domain mechanisms.

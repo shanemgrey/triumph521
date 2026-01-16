@@ -11,7 +11,7 @@ This file is the canonical truth source for the book: thesis, audience, voice, a
 Charging for exclusion from the commons (land and natural resources), distributing the proceeds equally as a citizen dividend, and funding government through citizen-directed budgeting can preserve markets and private title while eliminating taxes on productive activity—and create a stable foundation for a future where human labor is less central.
 
 ## Promise to the Reader (1 paragraph)
-You’ll get a legible model of where value comes from (nature, civilization, labor), why modern economies misattribute that value through exclusion-based income (rent), and how a concrete institutional design can convert land/resource scarcity from a private windfall into shared income—without abolishing private ownership, profit, or markets. The book is structured as (1) a conceptual journey you can’t “unsee”, and (2) implementation chapters that make the system auditable. It is written from lived experience in the US but designed to be usable both as a safe transition path in stable countries and as a “fresh start” architecture for states rebuilding governance.
+You’ll get a legible model of where value comes from (nature, civilization, labor), why modern economies misattribute that value through exclusion-based income (rent), and how a concrete institutional design can convert land/resource scarcity from a private windfall into shared income—without abolishing private ownership, profit, or markets. The book is structured as Part I (a conceptual journey you can’t “unsee”) and Part II (optional implementation modules you can read in any order). It is written from lived experience in the US but designed to be usable both as a safe transition path in stable countries and as a “fresh start” architecture for states rebuilding governance.
 
 ## Audience
 - Primary: cross-ideological readers who believe incentives matter more than intentions and want a non-moralized, mechanical explanation (libertarian, progressive, socialist, market reformer, institutional skeptic, systems thinker).
@@ -42,7 +42,7 @@ Full reader model: `book/reader_model.md`.
 - This book will not be a partisan manifesto, moral indictment, or culture-war argument.
 - This book will not propose abolishing markets, private ownership, or profit.
 - This book will not be jurisdiction-specific legal drafting or software architecture.
-- This book will not overload the core narrative with implementation mechanics (those go in Book Two).
+- This book will not overload the core narrative with implementation mechanics (those go in Part II).
 - This book will not rely on “proof by case study” for its core claims; the primary support is logic, incentives, and thought experiments.
 - This book will not prescribe jurisdiction-specific parameter values as “the policy”; it defines rule-structures and highlights tunable parameters and failure modes.
 
@@ -54,6 +54,7 @@ Full reader model: `book/reader_model.md`.
 - Terminology discipline:
   - Prefer: “Land Exclusion Fee (LEF)”, “resource rent”, “citizen dividend”, “people’s budget”.
   - Avoid as default labels: “tax”, “welfare/handout”, “nationalization” (unless explicitly discussing variants).
+  - When contrast matters: treat taxes as compulsory payments not anchored to a specific price for exclusion/usage/damage; treat fees as prices for exclusion/usage/damage (a value exchange).
 
 ## Core System Names (for consistency)
 - **Nature / Civilization / Labor**: the three necessary inputs to production.
@@ -68,22 +69,22 @@ Full reader model: `book/reader_model.md`.
 ## Sustainability Definition (for this book)
 “Sustainable” primarily means **ecological sustainability**: aligning incentives so prosperity does not require accelerating depletion, pollution, or irreversible damage to shared natural systems.
 
-## Scope (Two “Books” in One Volume)
+## Structure (Part I + Part II)
 
 Length targets:
 - Total: ~70,000–90,000 words.
 - Part I: ~17 chapters; target ~2,500 words/chapter on average (variance allowed).
-- Book Two: modular and skippable; module lengths vary by topic.
+- Part II: implementation modules; optional and skippable; module lengths vary by topic.
 
 Part I — Conceptual journey:
 - Diagnose the structural distortion (rent via exclusion).
 - Make the alternative feel inevitable: price exclusion, pay the dividend, fund government via citizens.
 - Keep mechanisms legible; avoid “engineering manual” detail.
 
-Book Two — Implementation (skippable modules):
+Part II — Implementation Modules (optional; read in any order):
 - Written so readers can skip around by domain (land, oil/gas, minerals, spectrum, water, etc.).
-- Each chapter should be readable standalone and include: “Who this affects”, prerequisites, inputs, mechanism summary, failure modes, and where it touches the contract/non-negotiables.
-- Start with a “fee structure theory” chapter: why land is priced one way, hydrocarbons another, durable materials another (economic behavior + measurability constraints).
+- Each module should be readable standalone and include: “Who this affects”, prerequisites, inputs, mechanism summary, failure modes, and where it touches the contract/non-negotiables.
+- Start with a “fee structure theory” module: why land is priced one way, hydrocarbons another, durable materials another (economic behavior + measurability constraints).
 - Domain modules:
   - Hydrocarbons
   - Fresh water
@@ -96,7 +97,6 @@ Book Two — Implementation (skippable modules):
   - Organic materials
   - Land
 - Framework modules:
-  - Estate transfer within the framework (name TBD; aligned with commons compensation, not productive taxation)
   - Indicators of economic, social, and environmental success (what to measure, what not to pretend to measure)
   - A direct chapter addressed to “powerful people” about transition incentives, stability, and why cooperation beats forced redistribution
 - Adoption paths:
@@ -116,6 +116,7 @@ Book Two — Implementation (skippable modules):
 - If no one pays the fee, exclusive control lapses and the land returns to commons availability until someone does.
 
 ## People’s Budget (Cadence + UX + Privacy)
+- Intent: restructure the public-finance control loop so budget size and allocation are citizen-set on a predictable cadence and agency funding becomes downstream of those signals.
 - Budget Size Vote: annual.
 - Allocation Vote: allow quarterly changes so people can respond to perceived agency performance.
 - UX intent: a hierarchical view of agencies/programs with drill-down detail; mobile-first.
@@ -138,11 +139,22 @@ For a “fresh start” polity, assume:
 - courts/enforcement
 - land registry
 
-Default land-rights stance:
-- land rights begin as competitive auctions for annual payments (a lease-like rate with strong security of exclusive use)
-- contracts must state fees can change annually and are set algorithmically (default change cap: CPI + 10%, adjustable as needed to hit utilization targets)
-- “keep transfer value near zero” rule (price signal): ensure some land remains available at the algorithmic fee with no buyer at any given time; if land trades start to show meaningful buyer→seller transfer value, LEF is too low
-- “too high” signal: if too much land is unused, or if parcels with improvements trade below improvement value, LEF is too high
+Minimal viable greenfield procedure (low-data path):
+1. Establish the ordering rule: commons revenue routes to an equal per-capita dividend first, and only then to budgeting.
+2. Allocate land rights via competitive auctions for annual payments (strong security of exclusive use; no discretionary parcel-by-parcel assessment).
+3. Put an explicit annual adjustment rule in the land-rights contracts (default change-cap anchor: CPI + 10%) so fees can move toward the “near-zero transfer value” objective without shocks.
+4. Use simple public pricing signals (not sales-data-heavy inference):
+   - Availability buffer: some land must remain available at the posted algorithmic fee with no buyer at any given time.
+   - Too low: meaningful buyer→seller transfer value reappears.
+   - Too high: too much land sits unused, or improved parcels trade below improvement value.
+5. Start resource rent capture with simple, auditable rules (auctioned rights and/or published schedule fees for exclusion/extraction) and expand sophistication only as capacity grows.
+6. Pay the dividend on a predictable cadence; treat cadence/implementation details as tunable parameters (but the ordering is not).
+7. Introduce a minimal People’s Budget loop (annual size vote + coarse allocation), then increase granularity over time.
+
+Assumptions and failure modes must be explicit:
+- If enforcement is weak or exemptions proliferate, rent capture collapses.
+- If the dividend can be diverted or delayed, political capture returns immediately.
+- If fee-setting becomes discretionary or opaque, legitimacy and auditability fail.
 
 ## Hostile Paraphrase Test
 - Likely hostile paraphrase: “This is just socialism/UBI dressed up as a land grab—an anti-property tax that crashes housing and politicizes the economy.”
@@ -166,7 +178,7 @@ Default land-rights stance:
 
 ## Citizen Dividend (Cadence + Minors)
 - Cadence: a tunable policy parameter (e.g., monthly or quarterly), but must be on a predictable schedule and always paid before any People’s Budget funding.
-- Minors: a tunable policy parameter; Book Two should outline options (e.g., full share held in trust/guardian, partial share, or other rule) and the incentive/fraud risks of each, without pretending there is a universal default.
+- Minors: a tunable policy parameter; Part II should outline options (e.g., full share held in trust/guardian, partial share, or other rule) and the incentive/fraud risks of each, without pretending there is a universal default.
 
 ## Change Control
 - Contract edits after blueprint freeze require a ticket in `book/tickets.md` and a decision note in `book/progress_log.md`.

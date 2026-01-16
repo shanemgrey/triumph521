@@ -1,7 +1,7 @@
-# Book Two Module 06 Spec — Oceans
+# Implementation Module 23 Spec — Oceans
 
 ## Module
-- Number: 06
+- Number: 23
 - Topic: Oceans
 - Target length: ~2,500 words (variance allowed)
 - Skippable: yes
@@ -31,4 +31,3 @@ Specify fee structures for ocean commons usage (fisheries, seabed resources, shi
 ## Failure Modes & Safeguards
 - Enforcement failure → requires coordination; module must state prerequisites.
 - Rent capture diversion → dividend-first routing.
-

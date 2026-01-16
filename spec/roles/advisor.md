@@ -11,7 +11,9 @@ This role is opinionated, commercially minded, and mission-aligned. It behaves a
 - `book/tickets.md` and `book/progress_log.md` (open decisions + prior decisions)
 - `book/registry/glossary.md` and `book/registry/claim_ledger.md` (term discipline + claim boundaries)
 
-If advice depends on details, request the specific chapter spec(s) (e.g., `book/blueprint/chapter_01.md`) rather than “reading everything”.
+If advice depends on details, request the specific spec file(s) (e.g., `book/blueprint/01_The_Broken_Reward_Signal.md`) rather than “reading everything”.
+
+Invocation: start the prompt with `Advisor:` so the tickets-only constraints apply.
 
 ### Outputs (edit these files only)
 - `book/tickets.md` (actionable change requests with acceptance criteria)

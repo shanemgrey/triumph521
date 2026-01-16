@@ -1,7 +1,7 @@
-# Book Two Module 03 Spec — Fresh Water
+# Implementation Module 20 Spec — Fresh Water
 
 ## Module
-- Number: 03
+- Number: 20
 - Topic: Fresh Water
 - Target length: ~2,500 words (variance allowed)
 - Skippable: yes
@@ -40,4 +40,3 @@ Describe fee structures for water extraction and water pollution as commons usag
 
 ## Interfaces
 - LRA may coordinate with basin authorities; enforcement assumptions must be explicit.
-

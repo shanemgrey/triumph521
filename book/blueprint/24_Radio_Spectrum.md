@@ -1,7 +1,7 @@
-# Book Two Module 07 Spec — Radio Spectrum
+# Implementation Module 24 Spec — Radio Spectrum
 
 ## Module
-- Number: 07
+- Number: 24
 - Topic: Radio Spectrum
 - Target length: ~2,500 words (variance allowed)
 - Skippable: yes
@@ -29,4 +29,3 @@ Specify how spectrum rights can be allocated and priced as a scarce commons acce
 ## Failure Modes & Safeguards
 - Regulatory capture via sweetheart renewals → enforce transparent renewal rules.
 - Underutilization → use-it-or-lose-it conditions.
-

@@ -1,7 +1,7 @@
-# Book Two Module 01 Spec — Fee Structure Theory
+# Implementation Module 18 Spec — Fee Structure Theory
 
 ## Module
-- Number: 01
+- Number: 18
 - Topic: Fee Structure Theory
 - Target length: ~2,500 words (variance allowed)
 - Skippable: yes (must be readable standalone)
@@ -52,4 +52,3 @@ Introduce a small set of fee-structure archetypes:
 
 ## Notes for Translation
 - Keep terminology consistent; avoid idioms (“silver bullet”, “race to the bottom”, etc.).
-

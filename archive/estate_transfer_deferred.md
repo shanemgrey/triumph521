@@ -1,8 +1,11 @@
-# Book Two Module 12 Spec — Estate Transfer (Name TBD)
+# Deferred Module — Estate Transfer (Post-Publication)
 
-## Module
-- Number: 12
-- Topic: Estate transfer within the framework (name TBD)
+This module is explicitly out of scope for the current volume and is kept here
+as deferred work for a later edition.
+
+## Module (Deferred)
+- Former number: 29
+- Topic: Estate transfer within the framework (deferred)
 - Target length: ~2,500 words (variance allowed)
 - Skippable: yes
 
@@ -34,4 +37,3 @@ Show how an inheritance/estate recapture mechanism can fit the framework if it t
 
 ## Interfaces
 - Revenue routing: if treated as commons recapture, it follows dividend-first; if treated as general policy, it must not violate the “no productive taxes” boundary.
-

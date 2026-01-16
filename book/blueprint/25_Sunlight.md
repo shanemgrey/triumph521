@@ -1,7 +1,7 @@
-# Book Two Module 08 Spec — Sunlight
+# Implementation Module 25 Spec — Sunlight
 
 ## Module
-- Number: 08
+- Number: 25
 - Topic: Sunlight
 - Target length: ~2,500 words (variance allowed)
 - Skippable: yes
@@ -28,4 +28,3 @@ Clarify when sunlight is worth pricing as a commons capture (rare) versus when i
 
 ## Failure Modes & Safeguards
 - Overengineering: pricing everything creates more discretion than it removes.
-

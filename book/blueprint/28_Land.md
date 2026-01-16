@@ -1,7 +1,7 @@
-# Book Two Module 11 Spec — Land
+# Implementation Module 28 Spec — Land
 
 ## Module
-- Number: 11
+- Number: 28
 - Topic: Land (LEF mechanism details)
 - Target length: ~2,500 words (variance allowed)
 - Skippable: yes
@@ -41,4 +41,3 @@ Include the pricing signals:
 
 ## Interfaces
 - Collection via LRA (or equivalent); dividend-first routing; People’s Budget only after dividend.
-

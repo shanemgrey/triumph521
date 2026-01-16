@@ -1,7 +1,7 @@
-# Book Two Module 02 Spec — Hydrocarbons
+# Implementation Module 19 Spec — Hydrocarbons
 
 ## Module
-- Number: 02
+- Number: 19
 - Topic: Hydrocarbons (oil, gas, coal)
 - Target length: ~2,500 words (variance allowed)
 - Skippable: yes
@@ -46,4 +46,3 @@ Describe the menu (not “the policy”):
 
 ## Notes for Translation
 - Avoid culture-specific references; define “rent capture” vs “price controls” clearly.
-

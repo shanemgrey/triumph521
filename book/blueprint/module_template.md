@@ -1,6 +1,6 @@
-# Book Two Module Spec Template
+# Implementation Module Spec Template
 
-Copy this file to `book_two_XX_<topic>.md` and fill it in.
+Copy this file to a Part II spec file named `NN_Title_With_Underscores.md` and fill it in (numbers continue after Part I).
 
 ## Module
 - Number: XX
@@ -50,4 +50,3 @@ TBD.
 
 ## Notes for Translation
 - Avoid idioms/wordplay; keep key terms consistent.
-

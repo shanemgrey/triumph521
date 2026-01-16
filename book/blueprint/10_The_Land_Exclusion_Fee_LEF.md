@@ -16,9 +16,10 @@ Explain LEF at a conceptual level: a recurring price on land exclusion (not impr
 - The separation: land vs improvements (buildings).
 - The objective: land transfer value trends toward zero because the rent stream is captured.
 - A conceptual “signal”: some land should remain available at the fee (land availability buffer) to indicate pricing is near the zero-transfer target.
+- A short “not a property tax” clarification: frame LEF as a commons fee (a price for exclusion) rather than a tax on productive activity; keep the full tax-vs-fee definitions and contrast in Chapter 12.
 
 ## Must Not Include
-- No full algorithmic valuation details (Book Two).
+- No full algorithmic valuation details (Part II).
 - No jurisdiction-specific parameter prescriptions.
 
 ## Key Claims (IDs)
@@ -43,5 +44,4 @@ Explain LEF at a conceptual level: a recurring price on land exclusion (not impr
 - Improvements are not the base; land is.
 - Capturing the rent stream drives land transfer value down.
 - Incentives shift from holding to using productively.
-- Book Two contains valuation and adjustment mechanics.
-
+- Part II contains valuation and adjustment mechanics.

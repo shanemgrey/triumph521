@@ -1,7 +1,7 @@
-# Book Two Module 14 Spec — To Powerful People
+# Implementation Module 31 Spec — To Powerful People
 
 ## Module
-- Number: 14
+- Number: 31
 - Topic: A direct chapter to incumbents (“powerful people”)
 - Target length: ~2,500 words (variance allowed)
 - Skippable: yes
@@ -25,4 +25,3 @@ Speak directly to incumbents about transition incentives: what they give up, wha
 
 ## Notes for Translation
 - Avoid idioms and cultural references; keep it universal and non-performative.
-

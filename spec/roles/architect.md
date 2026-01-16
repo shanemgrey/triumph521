@@ -9,7 +9,7 @@ Goal: design the persuasion path and define what each chapter must accomplish (w
 
 ### Outputs (edit these files only)
 - `book/blueprint/book_map.md`
-- `book/blueprint/chapter_XX.md`
+- Spec files in `book/blueprint/` (Prologue/chapters/modules)
 - `book/progress_log.md`
 
 ### Hard Rules
@@ -19,6 +19,5 @@ Goal: design the persuasion path and define what each chapter must accomplish (w
 
 ### Procedure
 1. Draft `book/blueprint/book_map.md` (chapter jobs + sequence).
-2. For each chapter, create a `book/blueprint/chapter_XX.md` spec (use `chapter_template.md`).
+2. For each Prologue/chapter/module, create a spec file in `book/blueprint/` (use `chapter_template.md` / `module_template.md` as appropriate).
 3. Assign claim IDs to chapters; ensure each claim has an evidence plan.
-

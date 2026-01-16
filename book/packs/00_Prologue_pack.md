@@ -1,6 +1,6 @@
-# Chapter 01 Pack (Compiled Context)
+# Prologue Pack (Compiled Context)
 
-This is the only context the Chapter Writer should use for drafting Chapter 01.
+This is the only context the writer should use for drafting the Prologue.
 
 ## Contract Excerpt (non-negotiables)
 - Thesis: TBD.
@@ -8,23 +8,23 @@ This is the only context the Chapter Writer should use for drafting Chapter 01.
 - Tone: calm, precise, non-tribal.
 - Must not: ideology signaling, moralizing, jargon without definitions.
 
-## Chapter 01 Spec
+## Prologue Spec
 - Job: TBD.
 - Entry → Exit: TBD → TBD.
 - Must include: TBD.
 - Must not: TBD.
 
 ## Required Claims (IDs)
-- `C-001`: TBD (status: `SOURCE NEEDED`).
+- None required (default); add only if the Prologue asserts specific claims.
 
 ## Allowed Terms (Glossary Subset)
 - TBD
 
 ## Continuity Snapshot
-- Previous chapter summaries: N/A (first chapter).
+- Previous chapter summaries: N/A (front matter).
 - “Already covered” list: N/A.
 
 ## Output Checklist
-- Produce `book/chapters/chapter_01.md`.
+- Produce `book/chapters/00_Prologue.md`.
 - End with **Self-Audit** (5 bullets, new terms, claim IDs used, evidence gaps).
 

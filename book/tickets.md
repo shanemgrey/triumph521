@@ -22,38 +22,44 @@ Acceptance criteria:
 
 ## Open Tickets
 
-- ID: T-009
-  Type: structure
-  Severity: must
-  Target: `book/book_contract.md` (Scope) + Book Two mechanisms
-  Problem:
-  - “Greenfield adoption” needs a concrete low-data pathway; the sales-residual valuation approach assumes strong registries and market sales data.
-  Requested change:
-  - In Book Two, define the minimal viable greenfield path (auctioned land rights with annual LEF, CPI+10% adjustment cap, land-availability buffer signal, resource rent capture, dividend distribution, safeguards) and state its assumptions/failure modes.
-  Acceptance criteria:
-  - Book Two includes a clear greenfield procedure and states its assumptions/failure modes.
-
-- ID: T-015
-  Type: tone
-  Severity: should
-  Target: Book Two module: “Estate recapture”
-  Problem:
-  - The estate/inheritance mechanism needs a name that fits the framework without triggering “tax” framing before the logic is established.
-  Requested change:
-  - Choose a public-facing name (and a second-choice synonym) and add it to the glossary.
-  Acceptance criteria:
-  - Glossary and Book Two module use the chosen name consistently.
-
-- ID: T-016
+- ID: T-021
   Type: structure
   Severity: should
-  Target: Book Two module: “Indicators of success”
+  Target: `book/blueprint/book_map.md` (Part I outline)
   Problem:
-  - “Indicators of economic/social/environmental success” needs a crisp scope so it doesn’t become a generic metrics chapter.
+  - Part I currently reads as a flat list of 17 chapters; the reader journey would benefit from 4–6 conceptual “parts” that act as orientation markers and pacing breaks.
+  - Part boundaries should be visible to the reader, but parts are grouping labels only (no chapter renumbering).
   Requested change:
-  - Define which indicators are in-scope and which are explicitly out-of-scope (especially to avoid claiming more measurability than exists).
+  - Propose a 4–6 part breakdown for Part I (aim ~5 parts) where each part has:
+    - a short working title,
+    - a one-sentence job (what the reader gains in this segment),
+    - the included chapter numbers.
+  - Treat parts as **grouping labels only**: keep chapter numbers unchanged.
+  - Use part boundaries to mark conceptual shifts (example: “see the problem” → “understand mechanisms” → “explore solution changes”).
+  - After author approval, update `book/blueprint/book_map.md` to include part headers and group the chapters accordingly.
+  - Keep Part II un-partitioned (no additional parts inside the modules section).
+  - Coordinate with `T-022` (Part I / Part II boundary copy) so the part grouping supports the “closure then optional modules” feel.
   Acceptance criteria:
-  - Book Two indicators module has a bounded list + explicit exclusions.
+  - `book/blueprint/book_map.md` contains clear Part I part headers (title + job) and chapters are grouped under them.
+  - Part boundaries support the existing chapter jobs/transitions (no new job overlap; no reordering unless separately approved).
+  - Part II remains a flat module list (no parts added).
+  - The author explicitly approves the part breakdown before it is applied to `book/blueprint/book_map.md`.
+
+- ID: T-027
+  Type: clarity
+  Severity: should
+  Target: `book/blueprint/12_No_Taxes_on_Productivity.md`
+  Problem:
+  - The book promises accelerated productive outcomes, but it lacks a simple, translation-friendly model for why taxing productive activity damages compounding over time (beyond “taxes distort incentives”).
+  Requested change:
+  - Add a required section in Chapter 12 that introduces the glossary model “Compounding productive capacity” and uses it to explain:
+    - why taxes on productive activity reduce reinvestment into tools/skills/durable capital, and
+    - why pricing exclusion/usage/damage does not penalize productive compounding the same way.
+  - Use neutral, non-moral examples (e.g., tools/training/infrastructure vs a large diamond) and explicitly state the point is structural over time, not aesthetic judgment about consumption.
+  Acceptance criteria:
+  - Chapter 12 spec lists `C-021` in Key Claims and references the glossary term “Compounding productive capacity”.
+  - Chapter 12 spec requires one short example of chain-extending spending and one short example of non-compounding spending (no numbers required). Default example for non-compounding: a large diamond.
+  - Chapter 12 spec explicitly warns against moralized “luxury shaming” language.
 
 ## Closed Tickets
 
@@ -70,3 +76,16 @@ Acceptance criteria:
 - T-011 (2026-01-15): AI section scope/placement clarified (Part I final chapter section); AI risk tracked as `OPEN` in `book/registry/claim_ledger.md`.
 - T-013 (2026-01-15): Dividend cadence and minors handling set as tunable policy parameters (cadence examples given; options deferred to Book Two).
 - T-014 (2026-01-15): Book Two module specs drafted in `book/blueprint/` and listed in `book/blueprint/book_map.md`.
+- T-017 (2026-01-16): Documented prompt-prefix role invocation in `spec/system.md` and clarified `Advisor:` in `spec/roles/advisor.md`.
+- T-020 (2026-01-16): Adopted `NN_Title_With_Underscores.md` naming for specs/drafts/packs (including Prologue `00_Prologue.md` and Part II modules 18+), and updated workflow docs.
+- T-022 (2026-01-16): Standardized reader-facing structure as `Part I` + `Part II: Implementation Modules (Optional; Read in Any Order)` across contract/blueprint and Chapter 17 handoff requirements.
+- T-015 (2026-01-16): Canceled (estate/inheritance module deferred post-publication).
+- T-026 (2026-01-16): Canceled (estate/inheritance module excluded from this book; no framing work needed).
+- T-009 (2026-01-16): Added a concrete low-data greenfield adoption procedure to Part II (`book/book_contract.md`, `book/blueprint/32_Adoption_Paths.md`).
+- T-018 (2026-01-16): Rewrote the Prologue vignette as scene-first and mechanism-free (`book/blueprint/00_Prologue.md`).
+- T-023 (2026-01-16): Required “today vs People’s Budget” control-loop framing + failure modes/mitigations in Chapter 09 spec (`book/blueprint/09_Funding_Government_The_Peoples_Budget.md`).
+- T-024 (2026-01-16): Integrated the structural poverty thread (C-019) into Chapter 04/08 specs and the Part I map (`book/blueprint/04_Property_Is_Exclusion.md`, `book/blueprint/08_Compensation_The_Citizen_Dividend.md`, `book/blueprint/book_map.md`).
+- T-025 (2026-01-16): Required an explicit tax-vs-commons-fee contrast (C-020) in Chapter 12 and reinforced the framing in Chapter 10 (`book/blueprint/12_No_Taxes_on_Productivity.md`, `book/blueprint/10_The_Land_Exclusion_Fee_LEF.md`).
+- T-028 (2026-01-16): Removed the Estate Transfer module from the blueprint and deferred the spec (`book/blueprint/book_map.md`, `archive/estate_transfer_deferred.md`).
+- T-016 (2026-01-16): Replaced the placeholder “Indicators of Success” module with a bounded indicator set + explicit exclusions (`book/blueprint/30_Indicators_of_Success.md`).
+- T-019 (2026-01-16): Expanded the Chapter 04 spec’s required “frontier → enclosure → closure” stylized model (land-first, then resources) and strengthened the bridge into Chapter 05 (`book/blueprint/04_Property_Is_Exclusion.md`).

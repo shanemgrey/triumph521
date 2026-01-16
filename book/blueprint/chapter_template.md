@@ -1,6 +1,6 @@
 # Chapter Spec Template
 
-Copy this file to `chapter_XX.md` and fill it in.
+Copy this file to a `NN_Title_With_Underscores.md` spec file and fill it in.
 
 ## Chapter
 - Number: XX

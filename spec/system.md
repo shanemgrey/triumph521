@@ -40,16 +40,18 @@ book/                       # the one book project (artifacts + drafts)
   blueprint/
     book_map.md
     chapter_template.md
-    chapter_01.md
+    00_Prologue.md
+    01_The_Broken_Reward_Signal.md
   registry/
     glossary.md
     claim_ledger.md
   continuity/
     continuity_ledger.md
   chapters/
-    chapter_01.md
+    01_The_Broken_Reward_Signal.md
   packs/                    # compiled packets for stateless writers/reviewers
-    chapter_01_pack.md
+    01_The_Broken_Reward_Signal_pack.md
+  project_status.md         # current snapshot (where we are + next actions)
   tickets.md
   progress_log.md
   interviews/               # optional: raw interview notes/transcripts
@@ -69,8 +71,8 @@ Freeze point: once approved, edits require a ticket + `book/progress_log.md` ent
 ### B. `book/blueprint/book_map.md` (the arc)
 Chapter list with entry/exit state, chapter job, dependencies, transitions, and “what not to do”.
 
-### C. `book/blueprint/chapter_XX.md` (chapter spec)
-For each chapter: purpose, reader entry/exit, key claims, required evidence, terms to introduce/reuse, examples, constraints, and the target 5-bullet summary.
+### C. `book/blueprint/NN_Title_With_Underscores.md` (spec file)
+For each Prologue/chapter/module: purpose, reader entry/exit, key claims, required evidence, terms to introduce/reuse, examples, constraints, and the target 5-bullet summary.
 
 ### D. `book/registry/glossary.md` (definitions)
 Canonical terms + allowed synonyms + forbidden synonyms/metaphors + first-introduced-in.
@@ -88,12 +90,15 @@ Per-chapter: 5-bullet summary, introduced terms, resolved/created open loops, an
 ### G. `book/tickets.md` (the only cross-role control surface)
 All review feedback and change requests live here with acceptance criteria.
 
-### H. `book/packs/chapter_XX_pack.md` (compiled context)
+### H. `book/packs/NN_Title_With_Underscores_pack.md` (compiled context)
 The Librarian compiles this packet. The Chapter Writer drafts using **only** this.
 
 ---
 
 ## 4) Role Contracts (Inputs, Outputs, Allowed Edits)
+
+### Role Invocation (Prompt Prefixes)
+To invoke a specific role contract, start your prompt with the role prefix (example: `Advisor:`). The agent must follow that role’s allowed edits and constraints.
 
 ### 0) Advisor / Development Editor (Optional)
 Goal: help the author resolve open questions and improve mass-market readability **without** violating the contract.
@@ -114,7 +119,7 @@ Goal: extract the book from the author via structured questions.
 Goal: design the persuasion path and chapter jobs.
 
 - Inputs: `book/book_contract.md`, registries, interview notes.
-- Outputs: `book/blueprint/book_map.md`, `book/blueprint/chapter_XX.md` specs.
+- Outputs: `book/blueprint/book_map.md`, spec files in `book/blueprint/`.
 - May edit: blueprint files.
 - Must not: draft chapter prose or redefine glossary terms (file a ticket instead).
 
@@ -122,15 +127,15 @@ Goal: design the persuasion path and chapter jobs.
 Goal: keep the project coherent and compile “safe context” for stateless writers.
 
 - Inputs: latest locked artifacts, latest chapter drafts, tickets.
-- Outputs: updates to `continuity_ledger.md`, registry updates, compiled `packs/chapter_XX_pack.md`.
+- Outputs: updates to `continuity_ledger.md`, registry updates, compiled `packs/NN_Title_With_Underscores_pack.md`.
 - May edit: continuity + registries + packs.
 - Must not: change chapter jobs or the book contract (tickets only).
 
 ### 4) Chapter Writer (Stateless Instance)
 Goal: draft one chapter that satisfies its chapter spec.
 
-- Inputs: `book/packs/chapter_XX_pack.md` only.
-- Outputs: `book/chapters/chapter_XX.md` + a self-audit section at the end.
+- Inputs: `book/packs/NN_Title_With_Underscores_pack.md` only.
+- Outputs: `book/chapters/NN_Title_With_Underscores.md` + a self-audit section at the end.
 - Must not: edit blueprint/registry/continuity directly (tickets only).
 
 Self-audit must include:
@@ -173,8 +178,8 @@ Gate: the book can be explained from `book_contract.md` alone.
 Gate: every chapter has a unique job; the arc matches the contract.
 
 ### Phase C — Chapter Loop (repeat per chapter)
-1. Librarian compiles `chapter_XX_pack.md`.
-2. Chapter Writer drafts `chapters/chapter_XX.md` + self-audit.
+1. Librarian compiles `NN_Title_With_Underscores_pack.md`.
+2. Chapter Writer drafts `chapters/NN_Title_With_Underscores.md` + self-audit.
 3. QA Panel files tickets.
 4. Reviser applies accepted tickets.
 5. Librarian updates continuity + registries + claim ledger mappings.
@@ -197,7 +202,7 @@ When all chapters are “locked”, run final passes (compression, clarity, evid
 
 ## 6) Chapter Packet Spec (What the Writer Receives)
 
-Each `book/packs/chapter_XX_pack.md` should include:
+Each `book/packs/NN_Title_With_Underscores_pack.md` should include:
 - Contract excerpt: thesis, audience, tone, “do not do” list.
 - Chapter spec: job, entry/exit state, constraints, transitions.
 - Required claim IDs + evidence status from `claim_ledger.md`.

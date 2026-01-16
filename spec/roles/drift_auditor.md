@@ -4,8 +4,8 @@ Goal: ensure the draft matches the contract and the chapter spec; detect drift e
 
 ### Inputs
 - `book/book_contract.md`
-- `book/blueprint/chapter_XX.md`
-- `book/chapters/chapter_XX.md`
+- Spec file(s) in `book/blueprint/`
+- `book/chapters/NN_Title_With_Underscores.md`
 
 ### Outputs (edit these files only)
 - `book/tickets.md`
@@ -20,4 +20,3 @@ Goal: ensure the draft matches the contract and the chapter spec; detect drift e
 - Are glossary terms used consistently?
 - Are any new claims introduced without claim IDs?
 - Are there ideology/temperature violations?
-

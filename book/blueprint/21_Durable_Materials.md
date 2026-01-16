@@ -1,7 +1,7 @@
-# Book Two Module 04 Spec — Durable Materials
+# Implementation Module 21 Spec — Durable Materials
 
 ## Module
-- Number: 04
+- Number: 21
 - Topic: Durable Materials (metals/minerals)
 - Target length: ~2,500 words (variance allowed)
 - Skippable: yes
@@ -37,4 +37,3 @@ Specify how to capture scarcity rent from durable finite materials while alignin
 
 ## Interfaces
 - LRA or delegated resource authority; dividend-first routing.
-

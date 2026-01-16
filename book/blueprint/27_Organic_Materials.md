@@ -1,7 +1,7 @@
-# Book Two Module 10 Spec — Organic Materials
+# Implementation Module 27 Spec — Organic Materials
 
 ## Module
-- Number: 10
+- Number: 27
 - Topic: Organic Materials (forests/biomass/soils/regenerative resources)
 - Target length: ~2,500 words (variance allowed)
 - Skippable: yes
@@ -31,4 +31,3 @@ Specify how the framework treats regenerative resources and organic systems with
 ## Failure Modes & Safeguards
 - Incentivizing depletion via measurement choices.
 - Corruption via exemptions for “development”.
-

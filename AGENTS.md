@@ -37,3 +37,8 @@ This folder is not currently a Git repository. If/when versioned:
 ## Agent-Specific Notes
 
 Codex treats `AGENTS.md` as operational guidance. Keep instructions factual, repo-specific, and aligned with the current `spec/` documents.
+
+## Role Invocation (Prompt Prefixes)
+
+- If a user prompt begins with a role prefix like `Advisor:`, follow the corresponding role contract in `spec/roles/` and respect its edit boundaries.
+- `Advisor:` use `spec/roles/advisor.md`; file change requests as tickets in `book/tickets.md` and only add decision notes to `book/progress_log.md` after explicit author confirmation (no direct edits to `book/book_contract.md` or `book/blueprint/*`).

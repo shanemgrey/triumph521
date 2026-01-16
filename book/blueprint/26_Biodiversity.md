@@ -1,7 +1,7 @@
-# Book Two Module 09 Spec — Biodiversity
+# Implementation Module 26 Spec — Biodiversity
 
 ## Module
-- Number: 09
+- Number: 26
 - Topic: Biodiversity
 - Target length: ~2,500 words (variance allowed)
 - Skippable: yes
@@ -32,4 +32,3 @@ Define how biodiversity can be protected within the framework using measurable p
 ## Failure Modes & Safeguards
 - Gaming proxies; offset fraud; discretionary overrides.
 - Safeguards: transparency, independent verification, simple rules.
-

@@ -1,4 +1,4 @@
-# Chapter 01 — TBD
+# Chapter 01 — The Broken Reward Signal
 
 TBD.
 
@@ -21,4 +21,3 @@ TBD.
 
 ### Evidence gaps
 - `SOURCE NEEDED`: TBD
-

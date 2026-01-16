@@ -1,7 +1,7 @@
-# Book Two Module 05 Spec — Atmosphere
+# Implementation Module 22 Spec — Atmosphere
 
 ## Module
-- Number: 05
+- Number: 22
 - Topic: Atmosphere (pollution/emissions)
 - Target length: ~2,500 words (variance allowed)
 - Skippable: yes
@@ -34,4 +34,3 @@ Define atmosphere-related externality fees as measurable commons damage pricing,
 ## Failure Modes & Safeguards
 - Gaming offsets and proxies.
 - Regressivity concerns: addressed structurally via dividend-first distribution.
-

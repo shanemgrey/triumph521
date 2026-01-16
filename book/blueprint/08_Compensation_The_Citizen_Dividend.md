@@ -16,6 +16,7 @@ Define the Citizen Dividend as compensation for exclusion from the commons and s
 - Compensation logic: if exclusion is enforced, the excluded are owed compensation.
 - Why equal per-capita distribution matters (simplicity, legitimacy, anti-capture).
 - The dividend-first intuition (paid before budgeting).
+- Link the dividend to restored baseline commons access in monetary form (a consequence of the mechanism), while avoiding guarantees about empirical poverty outcomes.
 
 ## Must Not Include
 - Do not argue “it ends poverty” as a guaranteed empirical claim.
@@ -23,6 +24,7 @@ Define the Citizen Dividend as compensation for exclusion from the commons and s
 
 ## Key Claims (IDs)
 - `C-006`: dividend as conversion of scarcity rents into shared income.
+- `C-019` (thread): equal per-capita compensation restores a baseline claim without requiring land redistribution.
 
 ## Evidence Plan
 - Accounting logic + thought experiments (scarcity price rises → dividend rises).
@@ -34,8 +36,9 @@ Define the Citizen Dividend as compensation for exclusion from the commons and s
 ## Section Plan (Outline)
 1. Compensation vs charity
 2. Why equal distribution is structurally important
-3. The visibility/trust effect of dividend-first ordering (preview)
-4. Bridge: if citizens are paid first, how is government funded? (Chapter 09)
+3. Restored baseline access: why compensation changes the “poverty is structurally possible” implication without promising outcomes
+4. The visibility/trust effect of dividend-first ordering (preview)
+5. Bridge: if citizens are paid first, how is government funded? (Chapter 09)
 
 ## Compression Target (5 bullets)
 - Exclusion implies compensation to those excluded.
@@ -43,4 +46,3 @@ Define the Citizen Dividend as compensation for exclusion from the commons and s
 - Equal per-capita distribution is simple and anti-capture.
 - Pay the dividend first to keep trust and visibility.
 - Next: fund government from citizens (People’s Budget).
-
